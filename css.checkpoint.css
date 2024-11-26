@@ -1,0 +1,132 @@
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+#piccc {
+    width:300px;
+   
+    background-image: url('https://i.picsum.photos/id/1005/1920/1080.jpg?hmac=8i_9g8F3zQ8rK_z0W-w33kY-u_wX392-j59-l9_0_U');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+   
+}
+#boton {
+    color: white;
+    background-color: orange;
+   border-radius: 3px;
+   cursor: pointer;
+   padding: 7px 12px;
+}
+#button {
+    color: black;
+    background-color:white;
+   border-radius: 3px;
+   cursor: pointer;
+   padding: 7px 12px;
+}
+.good {
+    color: red; /* Change the color to your desired one */
+    font-weight: bold; /* Optional: Make it bold */
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+#scar {
+    color: white;
+    background-color:rgb(59, 58, 58);
+}
+
+
+#tunis {
+    color: black;
+    background-color: red;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section styles */
+section {
+    padding: 40px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#projects .project {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+#scar {
+   color:black;
+   background-color: grey;
+   padding: 10px;
+   border-radius: 37%;
+}
+#tunis {
+    color: red;
+}
